@@ -1,4 +1,4 @@
-﻿using Exiled.Events.EventArgs;
+using Exiled.Events.EventArgs;
 using Exiled.API.Features;
 using MEC;
 using System.Collections;
@@ -7,7 +7,7 @@ using Exiled.API.Enums;
 
 namespace Commands
 {
-    public class EventHandlers : Plugin<Config>
+    public class EventHandlers
     {
         private readonly Plugin plugin;
         public EventHandlers(Plugin plugin) => this.plugin = plugin;
@@ -32,9 +32,9 @@ namespace Commands
         {
             using (dWebHook dcWeb = new dWebHook())
             {
-                dcWeb.ProfilePicture = Config.Avatar;
-                dcWeb.UserName = Config.Username;
-                dcWeb.WebHook = Config.WebhookURL;
+                dcWeb.ProfilePicture = Plugin.Singleton.Config.Avatar;
+                dcWeb.UserName = Plugin.Singleton.Config.Username;
+                dcWeb.WebHook = Plugin.Singleton.Config.WebhookURL;
                 dcWeb.SendMessage(msg);
                 yield return Timing.WaitForSeconds(1);
                 dcWeb.Dispose();
