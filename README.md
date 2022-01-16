@@ -5,5 +5,7 @@ Not much too say might add on to it but just for fun and to get back into exiled
 
 ###### Possible TO-DO List
 1.**Add JSON Embeds**
+
 2.**Add More Things to Log**
+
 3.**Never touch it again**
