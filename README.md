@@ -1,6 +1,6 @@
 # Basic SCP:SL Discord Intergration
 Sends a message to a discord webhook that logs various in game events
-Depends on newtonsoft.json so make sure you have it added to you're dependicies folder get it from releases or at github.com/JamesNK/Newtonsoft.Json/releases
+Depends on newtonsoft.json so make sure you have it added to you're dependicies folder get it from releases or at https://github.com/JamesNK/Newtonsoft.Json/releases
 
 ## Features:
 ```
