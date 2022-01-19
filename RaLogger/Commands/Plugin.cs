@@ -1,4 +1,4 @@
-﻿using Exiled.API.Features;
+using Exiled.API.Features;
 using System;
 using System.Collections.Generic;
 using Player = Exiled.Events.Handlers.Player;
@@ -22,6 +22,7 @@ namespace Commands
             Player.Banning += EventHandlers.BanEvent;
             Player.Kicking += EventHandlers.KickEvent;
             Player.ChangingRole += EventHandlers.ForceChangeClass;
+            Player.Died += EventHandlers.OnDeath;
             base.OnEnabled();
         }
 
@@ -30,6 +31,7 @@ namespace Commands
             Player.Banning -= EventHandlers.BanEvent;
             Player.Kicking -= EventHandlers.KickEvent;
             Player.ChangingRole -= EventHandlers.ForceChangeClass;
+            Player.Died -= EventHandlers.OnDeath;
             Singleton = null;
             EventHandlers = null;
             base.OnDisabled();
