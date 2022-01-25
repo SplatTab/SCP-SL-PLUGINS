@@ -3,8 +3,6 @@
   <a href="https://github.com/SplatTab/RALogger/releases/"><img src="https://img.shields.io/github/downloads/SplatTab/ralogger/total.svg" alt="GitHub All Releases"/></a>
 </p>
 
-Sends a message to a discord webhook that logs various in game events
-
 ## Features:
 ```
 Log Kick/Bans via discord webhook
