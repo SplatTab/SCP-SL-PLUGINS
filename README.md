@@ -1,6 +1,6 @@
 # RALogger or Discord Webhook Logger
 <p align="center">
-  <a href="https://github.com/SplatTab/RALogger/releases/"><img src="https://img.shields.io/github/downloads/SplatTab/RALogger/total.svg" alt="GitHub All Releases"/></a>
+  <a href="https://github.com/SplatTab/RALogger/releases/"><img src="https://img.shields.io/github/downloads/SplatTab/ralogger/total.svg" alt="GitHub All Releases"/></a>
 </p>
 
 Sends a message to a discord webhook that logs various in game events
