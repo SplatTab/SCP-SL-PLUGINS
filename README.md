@@ -27,7 +27,7 @@ Sends a message to a discord webhook that logs various in game events
   <a href="https://github.com/cabaletta/baritone/commit/"><img src="https://img.shields.io/github/commits-since/cabaletta/baritone/v1.0.0.svg" alt="GitHub commits"/></a>
   <img src="https://img.shields.io/github/languages/code-size/cabaletta/baritone.svg" alt="Code size"/>
   <img src="https://img.shields.io/github/repo-size/cabaletta/baritone.svg" alt="GitHub repo size"/>
-  <img src="https://tokei.rs/b1/github/cabaletta/baritone?category=code" alt="Lines of Code"/>
+  <img src="https://tokei.rs/b1/github/splattab/RALogger?category=code" alt="Lines of Code"/>
 </p>
 
 ## Features:
