@@ -1,4 +1,4 @@
-﻿using Exiled.Events.EventArgs;
+using Exiled.Events.EventArgs;
 using Exiled.API.Features;
 using System.Net;
 using Utf8Json;
@@ -74,6 +74,8 @@ namespace Commands
                 SW.Close();
                 if (Plugin.Singleton.Config.responselog)
                     Log.Info(dWebClient.GetResponse().ToString());
+                else
+                    dWebClient.GetResponse();
             }
         }
 
