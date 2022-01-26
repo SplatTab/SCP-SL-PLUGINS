@@ -72,10 +72,10 @@ namespace Commands
                 string embeds = JsonSerializer.ToJsonString<DiscordWebhook>(new DiscordWebhook(hook.RoleToPing, hook.Username, hook.Avatar, false, msgField));
                 SW.Write(embeds);
                 SW.Close();
+                string response = dWebClient.GetResponse().ToString();
+
                 if (Plugin.Singleton.Config.responselog)
-                    Log.Info(dWebClient.GetResponse().ToString());
-                else
-                    dWebClient.GetResponse();
+                    Log.Info(response);
             }
         }
 
