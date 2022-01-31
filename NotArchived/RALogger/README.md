@@ -1,9 +1,4 @@
 # RALogger or Discord Webhook Logger
-<p align="center">
-  <a href="https://github.com/SplatTab/RALogger/releases/"><img src="https://img.shields.io/github/downloads/SplatTab/ralogger/total.svg" alt="GitHub All Releases"/></a>
-  <a href="https://github.com/SplatTab/RALogger/releases/latest"><img src="https://img.shields.io/github/v/release/SplatTab/RALogger" alt="Latest Release"/></a>
-</p>
-
 ## Features:
 ```
 Log Kick/Bans via discord webhook
